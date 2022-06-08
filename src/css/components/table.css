@@ -1,0 +1,137 @@
+.m-td,
+.m-th {
+  padding: 0 10px;
+}
+
+.m-table {
+  width: 100%;
+  /* height: calc(100% - 64px); */
+  border-spacing: 0;
+  font-size: 13px;
+  position: relative;
+}
+
+
+.m-table .m-thead {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.space {
+  background-color: #fff;
+  min-width: 18px !important;
+  max-width: 18px !important;
+  width: 18px;
+  border: none;
+}
+
+.space-outside {
+  background-color: #eceef1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  min-width: 30px !important;
+  max-width: 30px !important;
+  width: 30px;
+}
+
+
+.m-table .m-tr{
+  background-color: #fff;
+}
+
+
+.m-table .m-th {
+  position: sticky;
+  background-color: #e5e8ec;
+  font-size: 12px;
+  height: 32px;
+  max-height: 32px;
+  border-right: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
+  font-family: MISA NotoSans Bold;
+  color: #111111;
+}
+
+.m-table .m-td {
+  height: 43px;
+  border-bottom: 1px solid #c7c7c7;
+  border-right: 1px dotted #c7c7c7;
+  white-space: pre-wrap;
+}
+
+.m-table .m-tbody .m-row-selected > .m-td{
+  background-color: #e5f3ff ;
+}
+
+.m-table .btn-edit-data{
+  font-weight: 600;
+  position: relative;
+  color: #0075c0;
+  display: inline-block;
+  transition: all .25s ease;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 13px;
+  cursor: pointer;
+
+}
+
+.m-table .m-tbody .m-tr:hover > .m-td{
+  background: #f2f9ff!important;  
+  cursor: pointer;
+}
+
+.m-table .m-tfoot{
+  position: sticky;
+  bottom: 0;
+  background: #e8eaef;
+  padding: 0 8px;
+  /* border-top: 2px solid #c7c7c7; */
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  min-height: 34px;
+  height: 34px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+.m-table .m-tfoot .m-td{
+  position: sticky;
+  bottom: 0;
+  background: #e8eaef;
+  padding: 0 10px;
+  font-family: MISA NotoSans Bold;
+  border-top: 1px solid #c7c7c7;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  min-height: 34px;
+  height: 34px;
+  font-size: 13px;
+}
+
+
+
+
+/* make column sticky */
+.m-table .m-tfoot .sticky-col
+,.m-table .m-thead .sticky-col {
+  position: sticky;
+  z-index: 10;
+}
+.m-table .m-tbody .static-col {
+  position: sticky;
+  z-index: 2;
+  background-color: #fff;
+}
+
+
+/* function column style */
+
+.m-table .m-tr .m-icon.icon--arrowup-bg-blue{
+  width: 24px;
+  height: 16px;
+  background-position: -892px -359px;
+}

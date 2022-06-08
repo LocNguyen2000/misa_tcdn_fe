@@ -1,0 +1,90 @@
+.m-navbar {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: 48px;
+  width: 100%;
+  align-items: center;
+  background-color: #fff;
+}
+.m-navbar .m-icon.icon--threestripe {
+  margin: 0 10px;
+}
+
+.m-navbar .branch-name-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.branch-name-wrapper .branch-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.m-space {
+  flex: 1;
+}
+
+.m-navbar .m-input-wrapper {
+  margin-right: 20px;
+}
+
+.m-navbar .navbar-icon {
+  padding: 0 10px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.m-navbar .current-db {
+  margin-left: 16px;
+  border-radius: 20px;
+  border: 1px solid #ebedf0;
+  height: 30px;
+  padding: 0 12px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  font-size: 13px;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.m-navbar .current-db::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #4EA344;
+}
+
+.m-navbar .navbar-icon .m-icon.icon--download {
+  margin-right: 15px;
+}
+
+.m-navbar .m-dropdown-user {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.m-navbar .m-dropdown-user .m-icon.icon--avatar {
+  background-color: #c7c7c7;
+  border-radius: 50%;
+  margin-right: 6px;
+}

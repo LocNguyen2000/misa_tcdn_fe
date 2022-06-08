@@ -1,0 +1,65 @@
+.m-input-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 32px;
+  position: relative;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  margin-right: 5px;
+  z-index: 2;
+  background: url("@/assets/img/Sprites.645f8243.svg") no-repeat;  
+  background-position: -128px -312px;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  background-color: #e0e0e0;
+} */
+
+.m-input:focus {
+  border: 1px solid #2ca01c;
+  border-radius: 3px;
+}
+.m-input {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid #babec5;
+  border-radius: 3px;
+  outline: none;
+  background-color: #fff;
+}
+
+.m-input--readonly {
+  background-color: #eff0f2 !important;
+}
+
+input.m-input[type="date"] {
+  font-family: MISA NotoSans;
+}
+
+.m-input-wrapper input.m-input::placeholder {
+  opacity: 0.9;
+  font-family: MISA NotoSans Italic;
+}
+
+.m-input-wrapper .m-icon {
+  padding-right: 5px;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+
+.m-input-wrapper:hover():not(:focus) .m-input {
+  outline: 1px solid #e2e2e2 !important;
+}

@@ -1,0 +1,47 @@
+.tab-container{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-top: 14px;
+    flex-direction: column;
+}
+
+.m-tab{
+    padding-left: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+/* TAB PHỤ */
+.m-tab.secondary-tab .m-tab-content{
+    padding: 7.5px 16px;
+}
+
+.m-tab.secondary-tab .m-tab-content.active-item{
+    color: #2ca01c !important;
+    font-weight: 700;
+    border-bottom: none;
+}
+/* / TAB PHỤ */
+
+.m-tab-content{
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.m-tab-content:hover:not(.active-item){
+    color: #2ca01c;
+}
+
+.m-tab-content.active-item{
+    border-bottom: 4px solid #2ca01c;
+    color: #111;
+    font-family: MISA NotoSans Bold;
+}
+
+.m-tab-line{
+    width: 100%;
+    height: 1px;
+    background-color: #d4d7dc;
+}
+

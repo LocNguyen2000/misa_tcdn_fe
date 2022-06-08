@@ -1,0 +1,24 @@
+.m-paging{
+    display: flex;
+    position: sticky;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    width: (100% - 32px);
+    padding: 16px;
+    font-size: 13px;
+}
+.m-paging .page-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.page-navigation .page-index .page-num.selected{
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+}
+
+.page-navigation .page-index .page-num.hidden{
+  display: none !important;
+}

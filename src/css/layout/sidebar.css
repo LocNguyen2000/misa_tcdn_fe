@@ -1,0 +1,74 @@
+.m-sidebar{
+    width: 180px;
+    background-color: #393a3d;
+}
+
+.m-sidebar .m-logo-container{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-sidebar .m-logo-container .menu-container{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+    background-image: url("@/assets/img/Sprites.64af8f61.svg");
+    background-position: -424px -87px;
+    background-repeat: no-repeat;
+}
+
+.m-sidebar .m-logo-container .logo-icon{
+    height: 32px;
+    width: 100px;
+    background-image: url("@/assets/img/Logo_Module_TiengViet_White.66947422.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.m-sidebar .m-menu-item-list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    height: calc(100% - 76px);
+}
+
+.m-sidebar .m-menu-item-list .m-menu-item{
+    display: flex;
+    height: 42px;
+    padding-left: 14px;
+    padding-right: 14px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.m-sidebar .m-menu-item-list .m-menu-item.active{
+    border-left: 6px solid rgb(44, 160, 28);
+    font-weight: 700;
+    position: relative;
+}
+
+.m-sidebar .m-menu-item-list .m-menu-item.active::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #d4d7dc;
+    opacity: .2;
+    left: 0;
+}
+
+.m-menu-item-list .m-menu-item .m-icon{
+    margin-right: 8px;
+} 
+
+.m-menu-item-list .m-menu-item .item-title{
+   font-size: 13px;
+} 
+
+.m-menu-item-list .m-menu-item .item-title{
+    color: #ffffff;
+} 

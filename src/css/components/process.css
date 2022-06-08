@@ -1,0 +1,148 @@
+.m-process-wrapper {
+  width: 100%;
+  height: calc(100vh - 112px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px #babec5;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* VÙNG PROCESS + UTIL */
+
+.m-process {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* VÙNG BÁO CÁO */
+
+.m-report-area {
+  width: 300px;
+  height: 460px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.report-body {
+  margin: 0;
+  padding: 0 16px;
+}
+
+.report-body li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  height: 74px;
+}
+
+.report-body li::before {
+  content: "\2022";
+  color: #646464;
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.report-footer {
+  cursor: pointer;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #0075c0;
+}
+
+/* VÙNG NGHIỆP VỤ */
+
+.area-process {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 690px;
+  height: 380px;
+}
+
+.title {
+  text-transform: uppercase;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: MISA NotoSans Bold;
+}
+
+.area-process .process-content {
+  position: relative;
+  height: 340px;
+  background-image: url("@/assets/qt_TienMat.1f64b87b.svg");
+  background-size: cover;
+}
+
+.process-content .face-button {
+  width: 90px;
+  padding-top: 60px;
+  position: absolute;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.face-button .button-process {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+/* CÁC VỊ TRÍ BUTTON PROCESS CON (FACE BUTTON) */
+.face-button.receive {
+  top: 40px;
+  left: 90px;
+}
+
+.face-button.payment {
+  top: 215px;
+  left: 90px;
+}
+
+.face-button.audit {
+  top: 125px;
+  left: 335px;
+  width: 125px !important;
+}
+
+/* VÙNG DICTIONARY */
+
+.area-dictionary {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  margin-top: 10px;
+  height: 70px;
+}
+
+.area-dictionary .dictionary-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #e5e5e5;
+}
+
+.area-dictionary .dictionary-item:last-child {
+  border-right: none;
+}

@@ -1,0 +1,48 @@
+.m-title{
+    padding: 24px 0 11px 0;
+}
+.m-title >.m-row:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-title .title-text{
+    font-size: 24px;
+    color: #111111;
+    font-family: MISA NotoSans Bold;
+}
+
+.m-title .title__tour-guide{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+}
+
+.title__tour-guide .tour-label{
+    white-space: nowrap;
+    padding-left: 5px;
+    color: rgb(0, 117, 192);
+    font-size: 13px;
+}
+
+
+.m-title .title-btn{
+    display: flex;
+    height: 36px;
+    margin-left: 12px;
+}
+
+.title-btn .m-btn{
+    display: flex;
+    border-radius: 3px;
+    padding: 8px 16px 8px 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.m-title .back{
+    color: rgb(0, 117, 192);
+    cursor: pointer;
+}

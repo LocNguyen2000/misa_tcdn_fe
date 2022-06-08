@@ -1,0 +1,57 @@
+.m-btn{
+    transition: all .2s ease;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    box-sizing: border-box;
+    background: 0 0;
+    overflow: visible;
+    border-radius: 3px;
+    font-family: MISA Notosans;
+}
+
+.m-btn-footer{
+    border: 1px solid #6b6c72;
+    color: #fff;
+    background-color: transparent;
+    position: relative;
+    border-radius: 3px;
+    font-family: MISA NotoSans Semi Bold;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.btn-size-default{
+    height: 34px;
+    padding: 6px 16px;
+}
+
+.m-btn-primary{
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #2ca01c;
+}
+
+.m-btn-primary:hover{
+    background-color: #35bf22;
+    color: #fff;
+}
+
+.m-btn-secondary{
+    border: 1px solid #8d9096;
+    color: #111;
+    background-color: transparent;
+    font-family: MISA Notosans Bold;
+    font-size: 12px;
+}
+
+.m-btn-secondary:hover{
+    background-color: #d2d3d6;
+}
+
+.radius-btn--round{
+    border-radius: 30px 0 0 30px !important;
+}
+

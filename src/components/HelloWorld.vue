@@ -1,58 +1,64 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="overflow-x">
+    <div class="pb-2"></div>
+    <!-- <BaseComboTableMulti 
+            propTxt="VendorGroupCode"
+            propValue="VendorGroupId"
+            :defaultData="clientVendorGroupMock"
+            :columns="columnClientVendor"
+            v-model="this.currentVendorGroup"
+        /> -->
+    <!-- <div class="m-add-dropdown">
+      <div class="add-btn m-btn m-btn-primary radius-btn--round">Thêm</div>
+      
+      <div class="split-btn"></div>
+
+      <div class="dropdown-btn m-btn m-btn-primary">
+        <div class="m-icon m-icon-w-16 icon--arrowUp--white"></div>
+      </div>
+    </div> -->
+    <!-- <AccountTreeTable 
+      :treeData="this.accountData"
+      :columns="this.accountColumns"
+    /> -->
+    <!-- <cash-filter /> -->
+
   </div>
 </template>
-
 <script>
+// import axios from 'axios';
+// import BaseComboTableMulti from "./base/combobox/BaseComboTableMulti.vue";
+// import AccountTreeTable from '../view/account/AccountTreeTable.vue';
+// import CashFilter from '@/view/cash/CashFilter.vue';
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
-</script>
+  components: { 
+    // AccountTreeTable,
+    // CashFilter
+  },
+  async mounted(){
+    // try {
+    //   const {data} = await axios.get(this.MISA_API.TABLE_API('account'))
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+    //   const response = await axios.get(this.MISA_API.ACCOUNT_BASE);
+      
+    //   this.accountColumns = data;
+    //   this.accountData = response.data;
+
+    //   console.log( this.accountData);
+
+    // } catch (error) {
+    //   console.log(error);
+    // }
+  },
+  data() {
+    return {
+      accountColumns: [],
+      accountData: [],
+      currentVendorGroup: [],
+    };
+  },
+};
+</script>
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+ @import url("@/css/common/padding.css");
 </style>

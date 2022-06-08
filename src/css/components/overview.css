@@ -1,0 +1,52 @@
+.m-overview{
+    display: flex;
+    min-height: 64px;
+    height: 64px;
+    margin-top: 13px;
+}
+
+.overview-item{
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    max-height: 64px;
+    padding: 4px 10px;
+
+}
+.overview-item:nth-child(2){
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.overview-item .overview-data{
+    width: 100%;
+}
+
+.overview-data .overview-number{
+    display: flex;
+    color: #fff;
+    font-size: 24px;
+}
+
+.overview-data .overview-label{
+    color: #fff;
+    font-size: 14px;
+}
+/* CUSTOMIZE COLOR CHO THANH OVERVIEW */
+.overview-withdraw, .overview-dued-debit{
+    background: #ff7f2c;
+}
+
+.overview-deposit{
+    background: #00a9f2;
+}
+.overview-total-debit{
+    background: #b8bcc3;   
+}
+
+.overview-remain, .overview-payment{
+    background: #74cb2f;
+}
+
+
+

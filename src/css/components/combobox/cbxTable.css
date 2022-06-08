@@ -1,0 +1,26 @@
+.m-combobox .m-combobox-data{
+    width: 0; 
+    padding: 0;
+    border: none;
+}
+.m-table{
+    border: 1px solid #babec5;
+}
+
+.m-table .m-th{
+    background-color: #f4f5f8;
+}
+
+.m-table .m-td, .m-table .m-th{
+    border-bottom: none;
+}
+.m-combobox-data{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.m-table .m-tr:hover .m-td{
+    color: #35bf22;
+    background-color: #ebedf0 !important;
+    cursor: pointer;
+}

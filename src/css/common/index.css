@@ -1,0 +1,129 @@
+/* POSITION AND COMMON CSS */
+.m-row {
+  display: flex;
+}
+
+.hide{
+  display: none;
+}
+
+.not-visible{
+  visibility: hidden;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.border-none{
+  border: none;
+}
+.border-outline-none{
+  border: none;
+  outline: none;
+}
+
+.sticky{
+  position: sticky !important;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top{
+  top: 0;
+}
+
+.bottom{
+  bottom: 0;
+}
+
+.overflow{
+  overflow: auto;
+}
+.overflow-x{
+  overflow-x: auto;
+
+}
+.overflow-y{
+  overflow-y: auto;
+}
+
+.pos-relative{
+  position: relative;
+}
+.pos-absolute{
+  position: absolute;
+}
+
+/* FLEX CSS */
+.flex-align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end !important;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.center-end{
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.opacity{
+  opacity: .5;
+}
+
+
+.flex-grow {
+  flex-grow: 1 !important;
+}
+
+.inline {
+  display: inline !important;
+}
+
+/* TEXT CSS */
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-overflow-hidden{
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.font-bold{
+  font-family: MISA NotoSans Bold;
+}

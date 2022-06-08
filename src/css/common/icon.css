@@ -1,0 +1,208 @@
+.m-icon {
+  background-image: url("@/assets/img/Sprites.645f8243.svg");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.m-icon-w-16{
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.m-icon.icon--expand{
+  background-position: -607px -311px;
+}
+.m-icon.icon--collapse{
+  background-position: -559px -312px;
+}
+.m-icon.m-close--small {
+  background-position: -80px -312px;
+}
+.m-icon.icon--attach{
+  background-position: -539px -203px;
+}
+
+.m-icon.icon-delete{
+  background-position: -464px -312px;
+}
+.m-icon.icon--recent{
+  background-position: -648px -144px;
+}
+.m-icon.icon--plus{
+  background-position: -32px -312px;
+}
+.m-icon.icon--chevron-left{
+  background-position: -35px -360px;
+}
+.m-icon.icon--tour{
+  background-position: -984px -144px;
+}
+.m-icon.icon--provider{
+  background-position: -928px -200px;
+}
+.m-icon.icon--caculator{
+  background-position: -1376px -256px;
+}
+.m-icon.icon--alert-exclamation {
+  background-position: -24px -954px;
+}
+.m-icon.m-icon--triangle-exclamation {
+  background-position: -592px -456px;
+}
+.m-icon.icon--confirm-exclamation {
+  background-position: -592px -456px;
+}
+.m-icon.icon--question-mark {
+  background-position: -826px -456px;
+}
+.m-icon.icon--close {
+  background-position: -144px -144px;
+}
+.m-icon.icon--calendar {
+  background-position: -112px -309px;
+}
+.m-icon.icon--arrowup {
+  background-position: -560px -359px;
+}
+.m-icon.icon--arrowUp--white {
+  background-position: -848px -359px;
+}
+.m-icon.icon--avatar {
+  width: 32px;
+  height: 32px;
+}
+.m-icon.icon--avatar-48 {
+  width: 48px;
+  height: 48px;
+}
+
+.m-icon.icon--dragable{
+  background-position: -416px -360px;
+}
+
+.m-icon.icon--setting {
+  background-position: -675px -30px;
+}
+.m-icon.icon--check-arrow-all{
+  background-position: -256px -143px;
+}
+
+.m-icon.icon--setting-grey {
+  background-position: -88px -200px;
+}
+
+.m-icon.icon--chatnav {
+  background-position: -899px -30px;
+}
+
+.m-icon.icon--help {
+  background-position: -731px -30px;
+}
+.m-icon.icon--notify {
+  background-position: -788px -30px;
+}
+
+.m-icon.icon--threestripe {
+  background-position: -843px -30px;
+}
+
+.m-icon.icon--category {
+  background-position: -568px -30px;
+}
+
+.m-icon.icon--arrowdown {
+  background-position: -75px -360px;
+  transform: rotate(90deg);
+}
+.m-icon.icon--arrowdown--small {
+  background-position: -1068px -28px;
+}
+.m-icon.icon--arrowleft {
+  background-position: -224px -360px;
+}
+.m-icon.icon--refresh {
+  background-position: -423px -201px;
+}
+.m-icon.icon--arrowup-bg-blue {
+  background-position: -892px -355px;
+}
+
+.m-icon.icon--arrowup-bg-blue:hover {
+  outline: 1px solid #0075c0;
+}
+
+.m-icon.icon--refresh:hover {
+  background-position: -1096px -88px;
+}
+.m-icon.icon--excel {
+  background-position: -704px -200px;
+}
+.m-icon.icon--excel:hover {
+  background-position: -704px -256px;
+}
+
+.m-icon.icon--download {
+  background-position: -2144px -200px;
+}
+.m-icon.icon--download:hover {
+  background-position: -2048px -200px;
+}
+
+.m-icon.icon--search {
+  background-position: -980px -356px;
+}
+
+.m-icon.icon--overview {
+  background-position: -30px -1628px;
+}
+.m-icon.icon--bank {
+  background-position: -117px -1628px;
+}
+
+.m-icon.icon--cash {
+  background-position: -73px -1628px;
+}
+
+.m-icon.icon--buy {
+  background-position: -161px -1628px;
+}
+.m-icon.icon--sell {
+  background-position: -204px -1628px;
+}
+
+.m-icon.icon--invoice {
+  background-position: -249px -1628px;
+}
+
+.m-icon.icon--stock {
+  background-position: -291px -1628px;
+}
+.m-icon.icon--tools {
+  background-position: -336px -1628px;
+}
+
+.m-icon.icon--asset {
+  background-position: -378px -1630px;
+}
+.m-icon.icon--tax {
+  background-position: -423px -1630px;
+}
+.m-icon.icon--price {
+  background-position: -467px -1628px;
+}
+
+.m-icon.icon--general {
+  background-position: -510px -1628px;
+}
+
+.m-icon.icon--budget {
+  background-position: -378px -1659px;
+}
+.m-icon.icon--report {
+  background-position: -547px -1628px;
+}
+.m-icon.icon--finance {
+  background-position: -204px -1664px;
+}

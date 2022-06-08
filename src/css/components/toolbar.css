@@ -1,0 +1,32 @@
+.m-toolbar{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.check-all-icon{
+    padding: 0 12px !important;
+    padding-top: 10px !important;
+}
+
+.m-toolbar > div{
+   padding: 0 6px;
+}
+
+.m-toolbar .toolbar-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.m-toolbar .toolbar-btn-wrapper div{
+    padding: 0 6px;
+}
+
+.m-icon.icon--setting-grey:hover {
+    background-position: -88px -256px;
+}

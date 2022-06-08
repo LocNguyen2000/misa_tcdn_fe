@@ -1,0 +1,16 @@
+.m-textarea{
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid #babec5;
+    font-family: inherit;
+    display: block;
+    padding: 9px;
+    color: #000;
+    font-size: 12px;
+    width: calc(100% - 20px);
+}
+
+.m-textarea:focus{
+    outline: none;
+    border: 1px solid #2ca01c;
+}

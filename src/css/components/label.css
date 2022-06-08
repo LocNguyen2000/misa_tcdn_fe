@@ -1,0 +1,11 @@
+.m-label {
+  font-size: 12px;
+  padding-bottom: 6px;
+  font-family: MISA NotoSans Bold;
+}
+
+.m-label-secondary {
+  font-size: 13px;
+  color: #111111;
+  padding-left: 10px;
+}

@@ -1,0 +1,148 @@
+.m-shadow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.m-dialog{
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    height: 625px;
+
+}
+.m-dialog .m-dialog-header {
+  padding: 20px 0 20px 32px;
+  position: relative;
+}
+
+.m-dialog .m-dialog-header .header-title{
+  font-size: 24px;
+  font-family: MISA NotoSans Bold;
+}
+
+.m-dialog-header .detail-input{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 24px;
+  flex: 1;
+  min-width: 600px;
+}
+
+.m-dialog .m-dialog-header .header-btn-close{
+  padding: 12px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.btn-detail:hover{
+  background-color: #ccc;
+}
+
+.m-dialog .m-dialog-content{
+  padding: 0 32px 20px;
+}
+.m-dialog .m-dialog-content .content-container{  
+  height: calc(100% - 150px);
+}
+
+.m-dialog .m-dialog-content .content{
+  padding-bottom: 12px;
+  width: 100%;
+}
+
+
+/* THANH TAB */
+
+.popup-tab .navigation-tab .tab-list{
+  height: 100%;
+  align-items: flex-end;
+}
+
+.popup-tab .navigation-tab .tab-item{
+  display: flex;
+  height: 26px;
+  margin: 0 1px;
+  border: 1px solid #c9ccd2;
+  padding: 0 8px;
+  align-items: center;
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+}
+.popup-tab .navigation-tab .tab-item:hover{
+  cursor: pointer;
+  color: #2ca01c;
+}
+
+.navigation-tab .tab-item.active{
+  background: #cce4f9;
+  height: 32px;
+}
+
+.navigation-tab .tab-content-container{
+  height: 180px;
+  min-height: 180px;
+  border: 1px solid #c9ccd2;
+  margin: 0 1px 1px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.tab-content-container .tab-content{
+  margin: 11px 8px;
+}
+
+/* THANH TK NGÂN HÀNG */
+.tab-content .grid-control-table{
+  max-height: 158px;
+  overflow: auto;
+}
+.grid-control-item{
+  padding-top: 10px;
+  width: 100%;
+  position: sticky;
+  background-color: #fff;
+}
+
+.grid-control-item button{
+  background: #fff;
+  border: 1px solid #8d9096;
+  border-radius: 3px!important;
+  padding: 2px 20px!important;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.top-grid{
+  display: flex;
+  border-bottom: 2px solid #d3d6db;
+  place-items: center;
+}
+
+/* END */
+
+.m-label .required{
+  color: red;
+}
+
+.row-input{
+  padding-bottom: 12px;
+}
+
+.divider{
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  margin: 32px 0 20px;
+  position: relative;
+}
+

@@ -1,0 +1,17 @@
+.m-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #bebebe;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.m-checkbox.checked {
+    border: 1px solid #2ca01c;
+    background-image: url("@/assets/img/Sprites.645f8243.svg");
+    background-repeat: no-repeat;
+    background-position: -1224px -360px;
+    cursor: pointer;
+    /* transition: all 0.5s ease; */
+}
