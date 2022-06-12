@@ -20,5 +20,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Run docker
+```
+docker build . -t nhloc/vue-web-app
+docker run -i -t -p 8080:8080 987ebead249e
+```
